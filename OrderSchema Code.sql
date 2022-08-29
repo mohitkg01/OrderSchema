@@ -175,7 +175,7 @@ WHERE
     (c.len * c.width * c.height) > (SELECT 
             SUM(pd.len * pd.width * pd.height * oi.product_quantity)
         FROM
-            order_items AS oi
+            order_items AS oi 
                 JOIN
             product AS pd ON oi.product_id = pd.product_id
         WHERE
