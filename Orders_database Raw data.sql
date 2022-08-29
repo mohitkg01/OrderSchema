@@ -4,7 +4,7 @@
 
 
 #-- Change to other preferred database, if required
-DROP database
+DROP database 
 
 IF EXISTS orders;
 
