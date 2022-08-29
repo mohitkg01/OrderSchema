@@ -9,7 +9,7 @@ DROP database
 IF EXISTS orders;
 
 CREATE database orders;
-
+ 
 use orders;
   DROP TABLE IF EXISTS  ORDER_ITEMS;
   DROP TABLE IF EXISTS  CARTON; 
